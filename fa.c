@@ -1,5 +1,12 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
-int 
+  int i,fact=1,num;
+  printf("enter the number");
+  scanf("%d",&num);
+  for(i=1;i<=num;i++)
+  {
+    fact=fact*i;
+  }
+  printf("factorial of %d is:%d",num,fact);
+}
