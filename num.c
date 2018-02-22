@@ -8,5 +8,9 @@ if(num>=1 && num<10)
 {
 printf("Yes");
 }
+else
+{
+printf("no");
+}
 return 0;
 }
