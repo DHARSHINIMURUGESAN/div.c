@@ -1,10 +1,10 @@
 #include<stdio.h>
-int main()
+void main()
 {
 int n,i;
 printf("enter the number:");
 scanf("%d",&n);
-for(i=n;;i++)
+for(i=n;'\n';i++)
 {
  if(i%10==0)
  {
@@ -12,5 +12,4 @@ for(i=n;;i++)
  break;
  }
 }
-return 0;
 }
