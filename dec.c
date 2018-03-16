@@ -1,11 +1,11 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-float num;
-int i;
-printf("Enter the number:");
-scanf("%f",&num);
-i=num+0.5;
-printf("%d",i);
-return 0;
+    float n;
+    printf("Enter the number:");
+    scanf("%f",&n);
+
+    printf("The integer number after rounded is  %5.0f",n);
+    return 0;
 }
