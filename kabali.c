@@ -6,7 +6,7 @@ printf("enter the number of ninjas in kabali's team:");
 scanf("%d",&x);
 printf("enter number of ninjas in opponent team:");
 scanf("%d",&y);
-d=x-y;
+d=y-x;
 printf("difference is %d\n",d);
 if(x>y)
 {
